@@ -148,7 +148,7 @@ article.blog {
  responsive-code-small-device 
 ---------------------------*/
 @media screen and (max-width: 870px) {
-  h2{
+  h2 {
     text-align: center;
   }
   .courses {
@@ -157,7 +157,7 @@ article.blog {
     justify-content: space-around;
     row-gap: 50px;
   }
-  .course{
+  .course {
     width: 60%;
   }
 }
@@ -170,13 +170,21 @@ article.blog {
     grid-template-columns: 1fr;
   }
   article.blog {
-    width: 90%;
+    width: 100%;
     align-items: center;
-}
+  }
 }
 @media screen and (max-width: 480px) {
-  .course{
+  .course {
     width: 80%;
   }
-
+  .blog-title{
+    font-size: 17px;
+  }
+  .blog-author{
+    font-size: 15px;
+  }
+  .blog-author a{
+    font-size: 15px;
+  }
 }
